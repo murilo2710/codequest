@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest - Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script defer src="pop.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="nav-bar">
+        <div id="nav-header"><a id="nav-title" href="#">CODE<span>QUEST</span></a>
+        </div>
+        <div id="nav-content">
+            <a href="modulos.html" class="nav-button">
+                <i class="fas fa-cubes"></i>
+                <span>Módulos</span>
+            </a>
+            <a href="pdfs.html" class="nav-button">
+                <i class="fas fa-file-pdf"></i>
+                <span>PDFS</span>
+            </a>
+            <a href="home.html" class="nav-button">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="ajuda.html" class="nav-button">
+                <i class="fas fa-question-circle"></i>
+                <span>Ajuda</span>
+            </a>
+            <a href="perfil.html" class="nav-button">
+                <i class="fas fa-user"></i>
+                <span>Perfil</span>
+            </a>
+            <div id="nav-content-highlight"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="header">
+            <h1>Bem-vindo ao CodeQuest!</h1>
+            <div class="status">
+                <!-- Ícones para interatividade -->
+                <i class="fas fa-heart big-icon" onclick="showPopup('hearts')"></i>
+                <i class="fas fa-fire big-icon" onclick="showPopup('fire')"></i>
+            </div>
+        </div>
+
+        <!-- Trilha de Módulos -->
+        <div class="module-trail">
+            <div class="module">
+                <div class="circle completed">
+                    <span class="icon"><i class="fas fa-star"></i></span>
+                </div>
+                <button class="module-btn">Começar</button>
+            </div>
+            <div class="line"></div>
+            <div class="module">
+                <div class="circle">
+                    <span class="icon"><i class="fas fa-book"></i></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="module">
+                <div class="circle">
+                    <span class="icon"><i class="fas fa-box-open"></i></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="module">
+                <div class="circle">
+                    <span class="icon"><i class="fas fa-star"></i></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="module">
+                <div class="circle">
+                    <span class="icon"><i class="fas fa-book"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
